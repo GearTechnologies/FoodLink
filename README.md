@@ -316,15 +316,15 @@ Copy `.env.example` to `.env` and configure the following:
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `HEDERA_TOKEN_ID` | HTS NFT collection ID | `0.0.67890` |
-| `HEDERA_RECALL_TOPIC_ID` | Global HCS recall alert topic | `0.0.11111` |
+| `HEDERA_TOKEN_ID` | HTS NFT collection ID | `0.0.8353900` |
+| `HEDERA_RECALL_TOPIC_ID` | Global HCS recall alert topic | `0.0.8353899` |
 
 ### After Deploying Smart Contracts
 
 | Variable | Description |
 |----------|-------------|
-| `HEDERA_CONTRACT_ID` | BatchRegistry contract ID |
-| `HEDERA_RECALL_MANAGER_CONTRACT_ID` | RecallManager contract ID |
+| `HEDERA_CONTRACT_ID` | BatchRegistry contract ID | `0.0.8354208` |
+| `HEDERA_RECALL_MANAGER_CONTRACT_ID` | RecallManager contract ID | `0.0.8354212` |
 
 ### Application Config
 
@@ -635,8 +635,8 @@ cd packages/contracts
 npx hardhat run scripts/deploy.js --network hedera_testnet
 
 # Copy the printed contract addresses into .env:
-# HEDERA_CONTRACT_ID=0.0.XXXXX
-# HEDERA_RECALL_MANAGER_CONTRACT_ID=0.0.XXXXX
+# HEDERA_CONTRACT_ID=0.0.8354208
+# HEDERA_RECALL_MANAGER_CONTRACT_ID=0.0.8354212
 ```
 
 ---

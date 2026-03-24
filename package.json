@@ -15,8 +15,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
   },
   "devDependencies": {
+    "@hashgraph/sdk": "^2.81.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
+    "dotenv": "^17.3.1",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "turbo": "^1.13.4",
